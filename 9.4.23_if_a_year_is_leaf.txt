@@ -1,0 +1,8 @@
+>>> def is_leap(n):
+...     if len("n") != 4 and n != "0000" and int('n') < 0:
+...             return False
+...     if int("n") % 4 != 0:
+...             return False
+...     else:
+...             return true
+
