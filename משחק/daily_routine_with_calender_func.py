@@ -1,22 +1,22 @@
 from classes.person import Person
+from datetime import datetime, timedelta
 
 person = Person()  # temp line
 
 
 class Time:
     def __init__(self):
+        initial_date = "1987-02-13"
+        self.date = datetime.strptime(initial_date, "%Y-%m-%d")
         self.current_time = None
         self.status = 'day' or 'night'
-        self.day = None
-        self.month = None
-        self.year = None
         self.season = None
 
     def time_pass(self):
-        pass
+        self.date = self.date + timedelta(days=1)
 
-
-
+    def __str__(self):
+        return self.date.strftime("%Y-%m-%d")
 
 # time = Time()
 #
@@ -28,29 +28,3 @@ class Time:
 #     person.go_to_work()
 # if time.current_time == '16:00':
 #     person.return_home()
-
-
-
-
-
-
-
-# from datetime import datetime, timedelta
-#
-# def increment_day(input_date_str):
-#     # Convert the input string to a datetime object
-#     input_date = datetime.strptime(input_date_str, "%Y-%m-%d")
-#
-#     # Increment the date by one day
-#     next_day = input_date + timedelta(days=1)
-#
-#     # Format the result as a string in the same format
-#     next_day_str = next_day.strftime("%Y-%m-%d")
-#
-#     return next_day_str
-#
-# # Example usage:
-# input_date_str = "2023-2-28"
-# next_day_date_str = increment_day(input_date_str)
-#
-# print(f"The next day after {input_date_str} is {next_day_date_str}")
