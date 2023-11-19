@@ -1,7 +1,13 @@
+from ..images.images import GameGallery
+
+gallery = GameGallery()
+
+
 class Employment:
     def __init__(self, owner, image, position):
         self.owner = owner
-        self.image = image
+        self.images = gallery.src_to_img(gallery.employment)
+        self.image = self.images[self]
         self.position = position
         self.cash = 0
         self.inventory = 0
