@@ -1,7 +1,9 @@
 import pygame
+from ..settings import Settings
 
-SCREEN_WIDTH = 1080
-SCREEN_HEIGHT = 720
+
+SCREEN_WIDTH = Settings().window_width
+SCREEN_HEIGHT = Settings().window_height
 
 
 class Executor:
