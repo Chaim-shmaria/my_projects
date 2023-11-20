@@ -1,3 +1,8 @@
+from ..images.images import GameGallery
+
+gallery = GameGallery()
+
+
 class Person:
     def __init__(self, gender, age, employment, children):
         self.age = age
@@ -12,3 +17,5 @@ class Person:
                       'employment': 8,
                       'sex': 5,
                       'happiness': 5}
+        self.images = gallery.src_to_img(gallery.person)
+        self.image = self.images[self]

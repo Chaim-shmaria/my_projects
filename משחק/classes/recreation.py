@@ -1,5 +1,12 @@
+from ..images.images import GameGallery
+
+gallery = GameGallery()
+
+
 class Recreation:
-    pass
+    def __init__(self):
+        self.images = gallery.src_to_img(gallery.recreation)
+        self.image = self.images[self]
 
 
 class Restaurant(Recreation):
