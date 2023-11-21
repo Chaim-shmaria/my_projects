@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a2118e15-4e21-45e7-bd18-7b83f3eccd19" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../my_little_perfect_world/.idea/my_little_perfect_world.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../my_little_perfect_world22/.idea/my_little_perfect_world22.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_little_perfect_world/controller/run_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/run_game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_little_perfect_world/controller/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_little_perfect_world/controller/to_do/run_game_plan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/controller/to_do/run_game_plan.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_little_perfect_world/model/entities/employment.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/entities/employment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_little_perfect_world/model/entities/house.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/entities/house.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_little_perfect_world/model/entities/party.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/entities/party.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_little_perfect_world/model/entities/person.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/entities/person.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_little_perfect_world/model/entities/recreation.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/entities/recreation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_little_perfect_world/res/employment/Butchery.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/res/images/employment/Butchery.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_little_perfect_world/res/house/House.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/images/house/House.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_little_perfect_world/res/person/Person.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/res/images/person/Person.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_little_perfect_world/res/recreation/Bar.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/res/images/recreation/Bar.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_little_perfect_world/res/recreation/Pool.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/res/images/recreation/Pool.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_little_perfect_world/service/display.py" beforeDir="false" afterPath="$PROJECT_DIR$/service/display.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_little_perfect_world/service/draft(temp).py" beforeDir="false" afterPath="$PROJECT_DIR$/service/draft(temp).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_little_perfect_world/service/images/images.py" beforeDir="false" afterPath="$PROJECT_DIR$/service/images/images.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_little_perfect_world/service/images/to_do/images_plan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/service/images/to_do/images_plan.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_little_perfect_world/service/time.py" beforeDir="false" afterPath="$PROJECT_DIR$/service/time.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_little_perfect_world/to_do/images_to_download.txt" beforeDir="false" afterPath="$PROJECT_DIR$/to_do/images_to_download.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_little_perfect_world/to_do/plan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/to_do/plan.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_little_perfect_world/to_do/schedual.txt" beforeDir="false" afterPath="$PROJECT_DIR$/to_do/schedual.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_little_perfect_world/view/executor.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/executor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_little_perfect_world/view/surface(temp).py" beforeDir="false" afterPath="$PROJECT_DIR$/view/surface(temp).py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2YU6b4jJ9C7NMnaM5LI3NfLIj1u" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="draft" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="my_little)perfect_world1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/draft.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2118e15-4e21-45e7-bd18-7b83f3eccd19" name="Changes" comment="" />
+      <created>1700567879049</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700567879049</updated>
+    </task>
+    <servers />
+  </component>
+</project>
