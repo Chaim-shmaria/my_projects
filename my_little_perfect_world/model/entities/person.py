@@ -1,7 +1,7 @@
-from ..images.images import GameGallery
+from service.images.images import GameGallery
 
 
-# gallery = GameGallery()
+person_images = GameGallery().person
 
 
 class Person:
@@ -18,4 +18,4 @@ class Person:
                       'employment': 8,
                       'sex': 5,
                       'happiness': 5}
-        self.image = GameGallery().src_to_img(GameGallery().person, self)
+        self.image = GameGallery().src_to_img(person_images, f"{self}")

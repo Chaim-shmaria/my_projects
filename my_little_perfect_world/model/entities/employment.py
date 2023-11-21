@@ -1,12 +1,12 @@
-from ..images.images import GameGallery
+from service.images.images import GameGallery
 
-# gallery = GameGallery()
+employment_images = GameGallery().employment
 
 
 class Employment:
     def __init__(self, owner, position):
         self.owner = owner
-        self.image = GameGallery().src_to_img(GameGallery().employment, self)
+        self.image = GameGallery().src_to_img(employment_images, f"{self}")
         self.position = position
         self.cash = 0
         self.inventory = 0
@@ -31,10 +31,6 @@ class Dairy(Employment):
 
 
 class Grocery(Employment):
-    pass
-
-
-class Greengrocer(Employment):
     pass
 
 

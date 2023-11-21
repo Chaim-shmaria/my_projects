@@ -1,12 +1,12 @@
-from ..images.images import GameGallery
+from service.images.images import GameGallery
 
 
-# gallery = GameGallery()
+recreation_images = GameGallery().recreation
 
 
 class Recreation:
     def __init__(self):
-        self.image = GameGallery().src_to_img(GameGallery().recreation, self)
+        self.image = GameGallery().src_to_img(recreation_images, f"{self}")
 
 
 class Restaurant(Recreation):

@@ -1,5 +1,5 @@
 import pygame
-from ..settings import Settings
+from controller.settings import Settings
 
 
 SCREEN_WIDTH = Settings().window_width
