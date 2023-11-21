@@ -1,7 +1,7 @@
 from ..images.images import GameGallery
 
 
-# gallery = GameGallery()
+house_images = GameGallery().house
 
 
 class House:
@@ -10,4 +10,4 @@ class House:
         self.position = pos
         self.Tenants = []
         self.content = []
-        self.image = GameGallery().src_to_img(GameGallery().house, self)
+        self.image = GameGallery().src_to_img(house_images, f"{self}")
