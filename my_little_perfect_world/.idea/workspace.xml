@@ -1,43 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1bf026d-4c62-4aff-a995-efeb646c342d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/.idea/my_little)perfect_world1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my_little)perfect_world1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/controller/run_game.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/controller/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/controller/to_do/run_game_plan.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/draft.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/model/entities/employment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/model/entities/house.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/model/entities/party.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/model/entities/person.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/model/entities/recreation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/res/images/employment/Butchery.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/res/images/house/House.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/res/images/person/Person.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/res/images/recreation/Bar.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/res/images/recreation/Pool.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/service/display.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/service/draft(temp).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/service/images/images.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/service/images/to_do/images_plan.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/service/time.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/to_do/images_to_download.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/to_do/plan.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/to_do/schedual.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/view/executor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little)perfect_world1/view/surface(temp).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2023,_14_09_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little_perfect_world22/.idea/my_little_perfect_world22.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="c1bf026d-4c62-4aff-a995-efeb646c342d" name="Changes" comment="dir changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,6 +57,19 @@
       <option name="presentableId" value="Default" />
       <updated>1700569085712</updated>
     </task>
+    <task id="LOCAL‎-00001" summary="dir changes">
+      <option name="closed" value="true" />
+      <created>1700569361977</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL‎-00001" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1700569361977</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dir changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="dir changes" />
   </component>
 </project>
