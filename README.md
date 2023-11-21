@@ -1,2 +1,2 @@
 # my_projects
-Projects I'm in the middle of editing
+Projects I'm in the middle of
