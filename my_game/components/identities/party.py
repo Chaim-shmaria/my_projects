@@ -1,13 +1,12 @@
 from ..images.images import GameGallery
 
-gallery = GameGallery()
+# gallery = GameGallery()
 
 
 class Party:
     def __init__(self):
         self.members = []
-        self.images = gallery.src_to_img(gallery.party)
-        self.image = self.images[self]
+        self.image = GameGallery().src_to_img(GameGallery().party, self)
 
 
 class MusicClass(Party):

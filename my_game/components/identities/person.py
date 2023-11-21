@@ -1,6 +1,7 @@
 from ..images.images import GameGallery
 
-gallery = GameGallery()
+
+# gallery = GameGallery()
 
 
 class Person:
@@ -9,7 +10,7 @@ class Person:
         self.gender = gender
         self.image = None
         self.employment = employment
-        self.childern = children
+        self.children = children
         self.cash = None
         self.satisfaction = None
         self.happiness = None
@@ -17,5 +18,4 @@ class Person:
                       'employment': 8,
                       'sex': 5,
                       'happiness': 5}
-        self.images = gallery.src_to_img(gallery.person)
-        self.image = self.images[self]
+        self.image = GameGallery().src_to_img(GameGallery().person, self)
