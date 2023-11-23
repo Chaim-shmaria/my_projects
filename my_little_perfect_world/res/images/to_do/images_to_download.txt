@@ -1,15 +1,15 @@
 employment:
 Butcher ✓
-Farmer
-Dairy
-Grocery
-Fisherman
-Barber
-Hunter
-Tailor
-Jeweler
-Shepherd
-Baker
+Farmer ✓
+Dairy ✓
+Grocery ✓
+Fisherman ✓
+Barber ✓
+Hunter ✓
+Tailor ✓
+Jeweler ✓
+Shepherd ✓
+Baker ✓
 WineryAndBrewery
 University
 Police
