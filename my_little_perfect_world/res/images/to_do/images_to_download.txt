@@ -10,12 +10,12 @@ Tailor ✓
 Jeweler ✓
 Shepherd ✓
 Baker ✓
-WineryAndBrewery
-University
-Police
-Court
-DogShop
-Textile
+WineryAndBrewery ✓
+University ✓
+Police ✓
+Court ✓
+DogShop ✓
+Textile ✓
 
 person✓
 
@@ -28,7 +28,7 @@ YogaClass
 recreation:
 Restaurant
 Soccer
-Pool
+Pool ✓
 Bar
 Library
 Park
