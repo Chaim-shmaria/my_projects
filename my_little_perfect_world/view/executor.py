@@ -8,6 +8,7 @@ SCREEN_HEIGHT = Settings().window_height
 
 class Executor:
     def __init__(self):
+        # just declare on the init:
         self.screen = None
         self.running = None
 

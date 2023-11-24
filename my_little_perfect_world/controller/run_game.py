@@ -1,4 +1,4 @@
-from components.executor import Executor
+from view.executor import Executor
 
 executor = Executor()
 
