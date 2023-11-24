@@ -1,4 +1,4 @@
-from service.images.images import GameGallery
+from model.images import GameGallery
 
 party_images = GameGallery().party
 

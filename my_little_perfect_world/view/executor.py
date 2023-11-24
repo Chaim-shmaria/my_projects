@@ -1,6 +1,6 @@
 import pygame
 from controller.settings import Settings
-
+from model.images import GameGallery
 
 SCREEN_WIDTH = Settings().window_width
 SCREEN_HEIGHT = Settings().window_height
@@ -8,25 +8,17 @@ SCREEN_HEIGHT = Settings().window_height
 
 class Executor:
     def __init__(self):
-        self.screen = None
-        self.running = None
-
-
-    def initialize_game_interface(self):
         pygame.init()
         self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
         pygame.display.set_caption("MY little perfect world")
         self.running = True
-
-
-    def initialize_variables(self):
-        pass
+        self.images = GameGallery()
 
     def run_game(self):
         while self.running:
             self.game_maintenance()
 
-    def game_maintenance(self):
+    def game_maintenance(self, key):
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 self.running = False
@@ -39,6 +31,3 @@ class Executor:
             if event.type == pygame.QUIT:
                 pass
             # and more and more
-
-    def quit(self):
-        pygame.quit()

@@ -3,7 +3,9 @@ import pygame
 
 class GameGallery:
     def __init__(self):
-        self.employment = {}
+        self.employment = {
+
+        }
         self.house = {}
         self.party = {}
         self.person = {}

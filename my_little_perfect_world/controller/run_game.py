@@ -1,11 +1,18 @@
-from components.executor import Executor
+import keyboard
+from view.executor import Executor
+
+
+def key_event(e):
+    if e.event_type == keyboard.KEY_DOWN:
+        Executor().game_maintenance(e.name)  # need to set it well
+
+
+# need to add the mouse input function
 
 executor = Executor()
 
-executor.initialize_game_interface()
-
-executor.initialize_variables()
-
 executor.run_game()
 
-executor.quit()
+keyboard.hook(key_event)
+
+quit()

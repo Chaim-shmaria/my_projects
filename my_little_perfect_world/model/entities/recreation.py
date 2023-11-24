@@ -1,4 +1,4 @@
-from service.images.images import GameGallery
+from model.images import GameGallery
 
 
 recreation_images = GameGallery().recreation
