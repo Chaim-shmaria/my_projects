@@ -1,4 +1,4 @@
-import pygame
+import pygame_functions
 
 
 class GameGallery:
