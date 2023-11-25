@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d693df3-7972-4a8e-96c6-8f68039e1e5c" name="Changes" comment="better set the MVC (ss)">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/pygame_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5d693df3-7972-4a8e-96c6-8f68039e1e5c" name="Changes" comment="refactoring (home)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/run_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/run_game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/images.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/images.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/display.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/display.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/executor.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/executor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +72,7 @@
       <updated>1700792636202</updated>
       <workItem from="1700792649214" duration="1925000" />
       <workItem from="1700794625881" duration="9619000" />
-      <workItem from="1700943581662" duration="6863000" />
+      <workItem from="1700943581662" duration="7480000" />
     </task>
     <task id="LOCAL‎-00001" summary="better set the MVC (ss)">
       <option name="closed" value="true" />
@@ -91,7 +82,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1700826416808</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL‎-00002" summary="refactoring (home)">
+      <option name="closed" value="true" />
+      <created>1700954675664</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL‎-00002" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1700954675665</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,8 +109,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial works (ss)" />
+    <MESSAGE value="kinda good" />
     <MESSAGE value="better set the MVC (ss)" />
-    <option name="LAST_COMMIT_MESSAGE" value="better set the MVC (ss)" />
+    <MESSAGE value="refactoring (home)" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring (home)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/my_little_perfect_world$run_game.coverage" NAME="run_game Coverage Results" MODIFIED="1700794327000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller" />
