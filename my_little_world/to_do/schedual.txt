@@ -1,0 +1,11 @@
+# Schedule:
+# 00:00: bed time (parents)
+# 7:00: get up
+# 8:00: go to work
+# 16:00: return home
+# -- free time --
+# 19:00: kids bed time (kids)
+# 20:30: spouse time / free time
+
+# functios needed to activate them:
+# go_to_sleep, wake_up, go_to_work, return_home, go_to_somewhere etc.
