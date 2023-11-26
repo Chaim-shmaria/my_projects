@@ -1,0 +1,35 @@
+employment:
+Butcher ✓
+Farmer ✓
+Dairy ✓
+Grocery ✓
+Fisherman ✓
+Barber ✓
+Hunter ✓
+Tailor ✓
+Jeweler ✓
+Shepherd ✓
+Baker ✓
+WineryAndBrewery ✓
+University ✓
+Police ✓
+Court ✓
+DogShop ✓
+Textile ✓
+
+person✓
+
+house ✓
+
+party:
+MusicClass
+YogaClass
+
+recreation:
+Restaurant
+Soccer
+Pool ✓
+Bar
+Library
+Park
+Playground

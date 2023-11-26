@@ -5,8 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d693df3-7972-4a8e-96c6-8f68039e1e5c" name="Changes" comment="refactoring (home)">
+      <change afterPath="$PROJECT_DIR$/controller/handle_keys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/entities/employment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/entities/house.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/entities/party.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/entities/person.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/entities/recreation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/executor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/images/images.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/images/source/employment/Baker.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/images/source/employment/Barber.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/images/source/employment/Butchery.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/images/source/employment/Court.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/images/source/employment/Dairy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/images/source/employment/DogShop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/images/source/employment/Farmer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/images/source/employment/Fisherman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/images/source/employment/Grocery.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/images/source/employment/Hunter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/images/source/employment/Jeweler.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/images/source/employment/Police.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/images/source/employment/Shepherd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/images/source/employment/Tailor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/images/source/employment/Textile.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/images/source/employment/University.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/images/source/employment/WineryAndBrewery.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/images/source/house/House.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/images/source/person/Person.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/images/source/recreation/Bar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/images/source/recreation/Pool.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/images/source/to_do/Shepherd_icon.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/images/source/to_do/images_to_download.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/images/to_do/images_plan.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/map_view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/pygame_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/run_game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/surface(temp).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/to_do/plan.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/to_do/run_game_plan.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_little_world/to_do/schedual.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/display.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/map_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/images.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/images.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/executor.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/executor.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,27 +85,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\חיים\git\my_projects\my_little_perfect_world\view" />
       <recent name="C:\Users\User\חיים\git\my_projects\my_little_perfect_world\model" />
       <recent name="C:\Users\User\Desktop\github\my_projects\my_little_perfect_world\model" />
       <recent name="C:\Users\User\Desktop\github\my_projects\my_little_perfect_world\view" />
       <recent name="C:\Users\User\Desktop\github\my_projects\my_little_perfect_world\service" />
-      <recent name="C:\Users\User\Desktop\github\my_projects\my_little_perfect_world\res\images\to_do" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -72,7 +118,9 @@
       <updated>1700792636202</updated>
       <workItem from="1700792649214" duration="1925000" />
       <workItem from="1700794625881" duration="9619000" />
-      <workItem from="1700943581662" duration="7480000" />
+      <workItem from="1700943581662" duration="8477000" />
+      <workItem from="1700964374793" duration="1968000" />
+      <workItem from="1700966473590" duration="527000" />
     </task>
     <task id="LOCAL‎-00001" summary="better set the MVC (ss)">
       <option name="closed" value="true" />
@@ -90,7 +138,23 @@
       <option name="project" value="LOCAL‎" />
       <updated>1700954675665</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL‎-00003" summary="refactoring (home)">
+      <option name="closed" value="true" />
+      <created>1700955438048</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL‎-00003" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1700955438048</updated>
+    </task>
+    <task id="LOCAL‎-00004" summary="refactoring (home)">
+      <option name="closed" value="true" />
+      <created>1700957839830</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL‎-00004" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1700957839830</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +179,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="refactoring (home)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/my_little_perfect_world$run_game.coverage" NAME="run_game Coverage Results" MODIFIED="1700794327000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller" />
+    <SUITE FILE_PATH="coverage/my_little_perfect_world$run_game.coverage" NAME="run_game Coverage Results" MODIFIED="1700965531254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller" />
   </component>
 </project>
