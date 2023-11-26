@@ -1,3 +1,5 @@
+# Mediates input readings from the controller, relays them to the model, and returns the corresponding view
+
 from model.pygame_functions import PygameFunctions
 from model.images import GameGallery
 

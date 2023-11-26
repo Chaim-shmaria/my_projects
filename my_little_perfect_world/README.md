@@ -14,8 +14,7 @@ my_little_perfect_world structure:
         - quit ✓
 
   ## view:
-    - executor ✓
-      - (Mediates input readings from the controller, relays them to the model, and returns the corresponding view)
+    - executor (description inside) ✓
     - call display method
     - change display method in keys accordance
     - call & display objects on screen
