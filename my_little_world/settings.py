@@ -1,8 +1,5 @@
 WINDOW_WIDTH = 1080
 WINDOW_HEIGHT = 720
-
-
-class Settings:
-    def __init__(self):
-        self.window_width = WINDOW_WIDTH
-        self.window_height = WINDOW_HEIGHT
+MAP_WIDTH = 20
+MAP_HEIGHT = 10
+INITIAL_BUILDINGS_NUM = 30

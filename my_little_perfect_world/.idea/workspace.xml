@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d693df3-7972-4a8e-96c6-8f68039e1e5c" name="Changes" comment="refactoring (home)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/handle_keys.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/handle_keys.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/run_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/run_game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little_world/executor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little_world/map_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/../my_little_world/service/map_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little_world/pygame_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../my_little_world/service/handle_keys.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little_world/run_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/../my_little_world/run_game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little_world/surface(temp).py" beforeDir="false" afterPath="$PROJECT_DIR$/../my_little_world/service/surface(temp).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_little_world/time.py" beforeDir="false" afterPath="$PROJECT_DIR$/../my_little_world/service/time.py" afterDir="false" />
-    </list>
+    <list default="true" id="5d693df3-7972-4a8e-96c6-8f68039e1e5c" name="Changes" comment="refactoring (home)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +72,7 @@
       <workItem from="1700943581662" duration="8477000" />
       <workItem from="1700964374793" duration="1968000" />
       <workItem from="1700966473590" duration="527000" />
-      <workItem from="1700977100520" duration="987000" />
+      <workItem from="1700977100520" duration="989000" />
     </task>
     <task id="LOCAL‎-00001" summary="better set the MVC (ss)">
       <option name="closed" value="true" />

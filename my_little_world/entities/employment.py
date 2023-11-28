@@ -1,10 +1,10 @@
-from model.images import GameGallery
+from images.images import GameGallery
 
 employment_images = GameGallery().employment
 
 
 class Employment:
-    def __init__(self, owner, position):
+    def __init__(self, owner=None, position=None):  # need to delete default Nones
         self.owner = owner
         self.image = GameGallery().src_to_img(employment_images, f"{self}")
         self.position = position
@@ -17,8 +17,11 @@ class Employment:
     def procurement(self):
         pass
 
+    def __repr__(self):
+        return f'{self.__class__.__name__}'
 
-class Butcher(Employment):
+
+class Butchery(Employment):
     pass
 
 
@@ -84,3 +87,15 @@ class DogShop(Employment):
 
 class Textile(Employment):
     pass
+
+def employments_group():
+    all_classes = [cls for cls in globals().values() if isinstance(cls, type)]
+
+    # Exclude specific classes
+    exclude_classes = [Employment, GameGallery]
+    filtered_classes = [cls for cls in all_classes if cls not in exclude_classes]
+
+    # Instantiate objects from each class
+    return [cls() for cls in filtered_classes]
+
+#print(employments_group())
