@@ -3,6 +3,7 @@ import settings
 from images.images import GameGallery
 from service.handle_keys import key_event
 import keyboard
+from service import init_game_map
 
 
 class Game:
@@ -15,6 +16,7 @@ class Game:
         self.running = True
         # load game tools:
         self.images = GameGallery()
+        init_game_map()
 
     def click_by_keyboard(self):
         pass
