@@ -1,10 +1,14 @@
+import pygame
 import settings
 from entities import employment
 from service.map_view import MapView
+from images.images import GameGallery
 
-initial_builddings_amount = settings.INITIAL_BUILDINGS_AMOUNT
+initial_buildings_amount = settings.INITIAL_BUILDINGS_AMOUNT
 
 employments = employment.employments_group()
+for employment in employments:
+    employment.image = pygame.image.load(GameGallery().employment[f'{employment}'])
 MAP = MapView()
 
 

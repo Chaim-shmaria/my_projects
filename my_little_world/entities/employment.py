@@ -1,3 +1,5 @@
+import pygame.image
+
 from images.images import GameGallery
 
 employment_images = GameGallery().employment
@@ -89,13 +91,14 @@ class Textile(Employment):
     pass
 
 def employments_group():
-    all_classes = [cls for cls in globals().values() if isinstance(cls, type)]
-
-    # Exclude specific classes
-    exclude_classes = [Employment, GameGallery]
-    filtered_classes = [cls for cls in all_classes if cls not in exclude_classes]
+    all_employment =[Butchery, Farmer, Dairy, Grocery, Fisherman, Barber,
+                     Hunter, Tailor, Jeweler, Shepherd, Baker, WineryAndBrewery,
+                     University, Police, Court, DogShop, Textile]
 
     # Instantiate objects from each class
-    return [cls() for cls in filtered_classes]
+    classes = [cls() for cls in all_employment]
 
-#print(employments_group())
+
+    return classes
+
+# print(employments_group())
