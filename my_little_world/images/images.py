@@ -1,27 +1,34 @@
 import pygame
+from entities.employment import all_employment
 
 EMPLOYMENT_PREFIX = '..//images//source//employment//'
 
+
 class GameGallery:
     def __init__(self):
+        self._employment = {}
+        for employ in all_employment:
+            # need to convert all to 'jpg'
+            self._employment[employ] = f'{EMPLOYMENT_PREFIX}{employ}.jpg'
+
         self.employment = {
-            'Butchery':          f'{EMPLOYMENT_PREFIX}Butchery.jpg',
-            'Farmer':            f'{EMPLOYMENT_PREFIX}Farmer.jpg',
-            'Dairy':             f'{EMPLOYMENT_PREFIX}Dairy.jpg',
-            'Grocery':           f'{EMPLOYMENT_PREFIX}Grocery.jpg',
-            'Fisherman':         f'{EMPLOYMENT_PREFIX}Fisherman.jpg',
-            'Barber':            f'{EMPLOYMENT_PREFIX}Barber.jpg',
-            'Hunter':            f'{EMPLOYMENT_PREFIX}Hunter.png',
-            'Tailor':            f'{EMPLOYMENT_PREFIX}Tailor.jpg',
-            'Jeweler':           f'{EMPLOYMENT_PREFIX}Jeweler.jpg',
-            'Shepherd':          f'{EMPLOYMENT_PREFIX}Shepherd.jpg',
-            'Baker':             f'{EMPLOYMENT_PREFIX}Baker.jpg',
-            'WineryAndBrewery':  f'{EMPLOYMENT_PREFIX}WineryAndBrewery.jpeg',
-            'University':        f'{EMPLOYMENT_PREFIX}University.jpg',
-            'Police':            f'{EMPLOYMENT_PREFIX}Police.jpg',
-            'Court':             f'{EMPLOYMENT_PREFIX}Court.jpeg',
-            'DogShop':           f'{EMPLOYMENT_PREFIX}DogShop.jpg',
-            'Textile':           f'{EMPLOYMENT_PREFIX}Textile.jpeg'
+            'Butchery': f'{EMPLOYMENT_PREFIX}Butchery.jpg',
+            'Farmer': f'{EMPLOYMENT_PREFIX}Farmer.jpg',
+            'Dairy': f'{EMPLOYMENT_PREFIX}Dairy.jpg',
+            'Grocery': f'{EMPLOYMENT_PREFIX}Grocery.jpg',
+            'Fisherman': f'{EMPLOYMENT_PREFIX}Fisherman.jpg',
+            'Barber': f'{EMPLOYMENT_PREFIX}Barber.jpg',
+            'Hunter': f'{EMPLOYMENT_PREFIX}Hunter.png',
+            'Tailor': f'{EMPLOYMENT_PREFIX}Tailor.jpg',
+            'Jeweler': f'{EMPLOYMENT_PREFIX}Jeweler.jpg',
+            'Shepherd': f'{EMPLOYMENT_PREFIX}Shepherd.jpg',
+            'Baker': f'{EMPLOYMENT_PREFIX}Baker.jpg',
+            'WineryAndBrewery': f'{EMPLOYMENT_PREFIX}WineryAndBrewery.jpeg',
+            'University': f'{EMPLOYMENT_PREFIX}University.jpg',
+            'Police': f'{EMPLOYMENT_PREFIX}Police.jpg',
+            'Court': f'{EMPLOYMENT_PREFIX}Court.jpeg',
+            'DogShop': f'{EMPLOYMENT_PREFIX}DogShop.jpg',
+            'Textile': f'{EMPLOYMENT_PREFIX}Textile.jpeg'
 
         }
         self.house = {}

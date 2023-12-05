@@ -90,14 +90,14 @@ class DogShop(Employment):
 class Textile(Employment):
     pass
 
-def employments_group():
-    all_employment =[Butchery, Farmer, Dairy, Grocery, Fisherman, Barber,
-                     Hunter, Tailor, Jeweler, Shepherd, Baker, WineryAndBrewery,
-                     University, Police, Court, DogShop, Textile]
+all_employment = [Butchery, Farmer, Dairy, Grocery, Fisherman, Barber,
+                  Hunter, Tailor, Jeweler, Shepherd, Baker, WineryAndBrewery,
+                  University, Police, Court, DogShop, Textile]
 
+
+def employments_group():
     # Instantiate objects from each class
     classes = [cls() for cls in all_employment]
-
 
     return classes
 
